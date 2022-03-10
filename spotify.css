@@ -1,0 +1,128 @@
+ *
+ {
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif; 
+ }
+ .cont
+ {
+    min-height: 66vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url(em.jpg);
+    background-size: cover;
+ }
+ body
+ {
+     background-color: rgb(241, 234, 234);
+ }
+ .brand
+ {
+     display: flex;
+     align-items: center;
+ }
+ .brand img
+ {
+     height: 60%;
+     width: 5%;
+     padding: 0 10px;
+ }
+ nav ul
+ {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 66px;
+    list-style-type: none;
+    align-items: center;
+    font-size: 1.3rem;
+ }
+ nav ul li
+ {
+    padding: 0 12px;
+ }
+ .bottom
+ {
+     position: sticky;
+     background-color: black;
+     height: 130px;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .icons
+ {
+    color: white;
+    margin-top: 10px;
+ }
+ .icons i
+ {
+    cursor: pointer;
+    padding: 15px;
+ }
+ #mypgbar
+ {
+     width: 80vw;
+    cursor: pointer;
+    margin-top: 10px;
+ }
+
+.si
+{
+    height: 50px;
+    display: flex;
+    background-color: rgb(46, 233, 102, 0.7);
+    width: 44%;
+    color: black;
+    margin-top: 12px;
+    margin-left: 590px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:34px ;
+    padding: 3px;
+}
+.si img 
+{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp
+{
+    margin-bottom: 20px ;
+}
+.timestamp i
+{
+    margin-left: 20px;
+    color: rgb(10, 10, 8);
+    cursor: pointer;
+}
+.songinfo
+{
+    color: white;
+    position: absolute;
+    left: 10vw;
+    display:flex ;
+    align-items: center;
+
+}
+.songinfo img
+{
+    height: 10%;
+    width: 10%;
+    margin-left: -32px ;
+    margin-top: 17px;
+    opacity: 0;
+    transition: 0.4s opacity ease-in;
+}
+.songinfo p
+{
+    margin-top: 18px;
+}

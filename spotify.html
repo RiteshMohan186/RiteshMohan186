@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav> 
+        <ul>
+            <li class="brand"><img src="file-spotify-logo-png-4.png" alt="">Spotify</li>
+            <li>Account</li>
+            <li>Settings</li>
+        </ul>
+    </nav>
+
+
+    <div class="cont">
+       <div class="sl"> 
+           <h1>Best of Eminem</h1>
+            <div>
+                <div class="si">
+                    <img src="mmlp1.webp">
+                    <span>The Real Slim Shady</span>
+                    <span class="slp"> <span class="timestamp">4:45<i class="fa-solid fa-lg fa-circle-play songitemplay" id="0"></i></span>  </span>
+                </div>
+                <div class="si">
+                    <img src="8m.jpg" style="margin-left: 12px;">
+                    <span>Lose Yourself</span>
+                    <span class="slp"> <span class="timestamp">5:26<i class="fa-solid fa-lg fa-circle-play songitemplay" style="margin-right: -14px;" id="1"></i></span>  </span>
+                </div>
+                <div class="si">
+                    <img src="es.jpg" style="margin-left: 9px;">
+                    <span>Without Me</span>
+                    <span class="slp"> <span class="timestamp">4:50<i class="fa-solid fa-lg fa-circle-play songitemplay" style="margin-right: -16px;" id="2"></i></span>  </span>
+                </div>
+                <div class="si">
+                    <img src="recovery.jpg" style="margin-left: 10px;">
+                    <span>Not Afraid</span>
+                    <span class="slp"> <span class="timestamp">4:08<i class="fa-solid fa-lg fa-circle-play songitemplay" style="margin-right: -16px;" id="3"></i></span>  </span>
+                </div>
+                <div class="si">
+                    <img src="mtbmba.png" style="margin-left: 6px;">
+                    <span>Godzilla</span>
+                    <span class="slp"> <span class="timestamp">3:30<i class="fa-solid fa-lg fa-circle-play songitemplay" style="margin-right: -20px;" id="4"></i></span>  </span>
+                </div>
+                <div class="si">
+                    <img src="mtbmbb.jpg">
+                    <span>Alfred's Theme</span>
+                    <span class="slp"> <span class="timestamp">5:39<i class="fa-solid fa-lg fa-circle-play songitemplay" style="margin-right: -5px;" id="5"></i></span>  </span>
+                </div>
+            </div>
+        </div>
+        <div class="sb"></div>
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" name="range" min="0" max="100" id="mypgbar" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="prev"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo" style="font-size: large;">
+           <img src="Nt6v.gif" alt="" id="gif"> <p id="mastersongname"></p>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+    <script src="https://kit.fontawesome.com/8e91802ce2.js" crossorigin="anonymous"></script>
+</body>
+</html>
